@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #D8D0CD ;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:  #B46543;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+button {
+    margin-bottom: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:antiquewhite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.book-card button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.book-card button:hover {
+    background-color: #c0392b;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+#addBookForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#addBookForm input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#addBookForm label[for="read"], #addBookForm #read {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.check{
+    display: flex;
+    justify-content: flex-start;
+}
